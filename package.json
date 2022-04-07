@@ -1,0 +1,27 @@
+{
+  "name": "Hero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "upload": "surge --project ./ --domain sabitasitaula.surge.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabitasitaula/Hero.git"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "npm run upload"
+    }
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabitasitaula/Hero/issues"
+  },
+  "homepage": "https://github.com/sabitasitaula/Hero#readme"
+}
