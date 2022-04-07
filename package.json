@@ -11,17 +11,17 @@
     "type": "git",
     "url": "git+https://github.com/sabitasitaula/Hero.git"
   },
-  "git": {
-    "scripts": {
-      "pre-push": "npm run upload"
-    }
-  },
-
+  "pre-push": [
+    "upload"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sabitasitaula/Hero/issues"
   },
-  "homepage": "https://github.com/sabitasitaula/Hero#readme"
+  "homepage": "https://github.com/sabitasitaula/Hero#readme",
+  "devDependencies": {
+    "pre-push": "^0.1.2"
+  }
 }
