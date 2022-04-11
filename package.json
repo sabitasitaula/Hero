@@ -22,6 +22,13 @@
   },
   "homepage": "https://github.com/sabitasitaula/Hero#readme",
   "devDependencies": {
-    "pre-push": "^0.1.2"
+    "git-scripts": "^0.6.0",
+    "pre-push": "^0.1.2",
+    "surge": "^0.23.1"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./ --domain sabitasitaula.surge.sh"
+    }
   }
 }
